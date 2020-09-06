@@ -1,0 +1,128 @@
+body {
+    font-family: 'Recursive', sans-serif;
+    background-color: #ffb174;
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.mask {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    background-color: black;
+    opacity: 0.3;
+}
+
+.logo,
+.menu {
+    z-index: 1;
+}
+
+.menu {
+    color: white;
+    font-weight: bold;
+}
+
+.mn {
+    padding: 10px 20px;
+    border: 1px solid white;
+    border-radius: 20px;
+    margin: 30px;
+    text-transform: capitalize;
+}
+
+.banner {
+    width: 100%
+}
+
+.sanpham,
+.noidung {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px
+}
+
+.sp {
+    padding: 40px;
+    padding-top: 15px;
+    text-align: center;
+    color: #c03546
+}
+
+.anhsp {
+    height: 250px;
+    border-radius: 10%;
+}
+
+.icon {
+    height: 20px
+}
+
+.dmsp {
+    border-top: 2px dashed black;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.danhmucsp {
+    border: 2px dashed black;
+    margin-top: 20px;
+    text-align: center;
+    border-radius: 20%;
+    color: #6e3b3b;
+    font-weight: bold;
+}
+
+.danhmucsp a {
+    text-decoration-line: none;
+    color: #c94e4e;
+}
+
+.lienhe {
+    border: 2px dashed black;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 20%;
+}
+
+.logo-img {
+    width: 100px;
+    margin-top: 20px;
+    margin-left: 20px;
+    border-radius: 50%;
+}
+
+.header {
+    background-image: url(./banner1300.jpg);
+    padding-bottom: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0px -410px;
+}
+
+.menu a {
+    color: white;
+    text-decoration-line: none;
+}
+
+a:hover {
+    color: yellow;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: whitesmoke;
+    margin: auto;
+    height: 100px;
+}
